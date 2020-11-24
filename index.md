@@ -1,3 +1,3 @@
 ## ALIEN TIME
 
-Something
+{{ page.date | date: '%B %d, %Y' }}

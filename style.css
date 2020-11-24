@@ -86,7 +86,7 @@ left:40%;
 }
 
 @-webkit-keyframes rainbow{
-0%{color: hsla(0,100%,0%,1.0);}	
+0%{color: hsla(0,100%,50%,1.0);}	
 10%{color: hsla(36,100%,50%,1.0);}	
 20%{color: hsla(72,100%,50%,1.0);}
 30%{color: hsla(108,100%,50%,1.0);}

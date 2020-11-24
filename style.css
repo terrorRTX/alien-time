@@ -67,15 +67,15 @@ left:40%;
 }
 
 @-webkit-keyframes rainbow{
-0%{color: hsl(0,0,0);}	
-10%{color: hsl(36,0,0);}	
-20%{color: hsl(72,0,0);}
-30%{color: hsl(108,0,0);}
-40%{color: hsl(144,0,0);}
-50%{color: hsl(180,0,0);}
-60%{color: hsl(216,0,0);}
-70%{color: hsl(252,0,0);}
-80%{color: hsl(288,0,0);}
-90%{color: hsl(312,0,0);}
-100%{color: hsl(0,0,0);}
+0%{color: hsla(0,0%,0%);}	
+10%{color: hsla(36,0%,0%);}	
+20%{color: hsla(72,0%,0%);}
+30%{color: hsla(108,0%,0%);}
+40%{color: hsla(144,0%,0%);}
+50%{color: hsla(180,0%,0%);}
+60%{color: hsla(216,0%,0%);}
+70%{color: hsla(252,0%,0%);}
+80%{color: hsla(288,0%,0%);}
+90%{color: hsla(312,0%,0%);}
+100%{color: hsla(0,0%,0%);}
 }

@@ -43,3 +43,12 @@ left:40%;
     font-family: Major Mono Display;
     border-radius: 10px;
 }
+.clock2{
+    background-color: rgba(235,235,235, 0.5);
+    text-align: center;
+    font-size:30px;
+    height: 100%;
+    padding-top: 35px;
+    font-family: Major Mono Display;
+    border-radius: 10px;
+}

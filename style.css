@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-background: url("./background.jpg")no-repeat center center fixed;
+background: url("./3090-wallpaper-1920x1080-r1.png")no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -39,6 +39,6 @@ left:40%;
     font-size:55px;
     height: 100%;
     padding-top: 35px;
-    font-family: Orbitron;
+    font-family: Montserrat;
     border-radius: 10px;
 }

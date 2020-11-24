@@ -1,12 +1,12 @@
-@import url("./FrozenCrystalAcademy-J787.otf");
+@import url("./BigPixelShadowedDemo-dXog.ttf");
 *{
     padding :0;
     margin : 0;
     box-sizing: border-box;
 }
 @font-face {
-    font-family: Frozen Crystal AC;
-    src: url("../alien-time/FrozenCrystalAcademy-J787.otf") format('opentype');
+    font-family: BigPixel;
+    src: url("../BigPixelShadowedDemo-dXog.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -46,7 +46,7 @@ left:40%;
     font-size:30px;
     height: 100%;
     padding-top: 35px;
-    font-family: Frozen Crystal AC;
+    font-family: BigPixel;
     border-radius: 10px;
 }
 .clock2{
@@ -55,6 +55,6 @@ left:40%;
     font-size:30px;
     height: 100%;
     padding-top: 35px;
-    font-family: Frozen Crystal AC;
+    font-family: BigPixel;
     border-radius: 10px;
 }

@@ -21,10 +21,7 @@ if (day < 10){
     day = "0" + day;
 }
 if (month < 10){
-    month = "0" + hours;
-}
-if (hours < 10){
-    hours = "0" + hours;
+    month = "0" + month;
 }
 document.getElementById('hour').innerHTML= hours + ":";
 document.getElementById('minute').innerHTML= mins+":";

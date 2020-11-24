@@ -30,12 +30,12 @@ border-radius: 5px;
     font-family: sans-serif;
     font-weight: bold;
     width: 256px;
-top: -15px;
+top: 15px;
 left:40%;
     position: relative;
 }
 .clock{
-    background-color: rgba(235,235,235, 0.5);
+    background-color: rgba(235,235,235, 0.1);
     text-align: center;
     font-size:30px;
     height: 100%;
@@ -44,7 +44,7 @@ left:40%;
     border-radius: 10px;
 }
 .clock2{
-    background-color: rgba(235,235,235, 0.5);
+    background-color: rgba(235,235,235, 0.1);
     text-align: center;
     font-size:30px;
     height: 100%;

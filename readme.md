@@ -1,2 +1,4 @@
-Hello!
-This site was made by @saltedsugar (Terror), @RJTimmerman, and idea was by @Lord_Chrom (Shay).
+
+
+
+https://img.shields.io/discord/641381750672588808?label=chat%20with%20us%21&style=plastic

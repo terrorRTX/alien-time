@@ -35,10 +35,12 @@ function clock() {
 	
 	document.getElementById('hour2').innerHTML = hours.toString() + ":";
 	document.getElementById('minute2').innerHTML = mins.toString() + ":";
-	document.getElementById('second2').innerHTML = secs.toString() + "";
+	document.getElementById('second2').innerHTML = secs.toString();
 	
 	document.getElementById('day2').innerHTML = day.toString() + "-";
 	document.getElementById('month2').innerHTML = month.toString() + "-";
 	document.getElementById('year2').innerHTML = year.toString();
 }
 setInterval(clock, 50);
+
+document.getElementById('What').addEventListener("mouseenter", function() {setTimeout(function() {alert("What're ya lookin' at?"); document.body.style.backgroundImage = "url('Radeon-RX-6900-XT_Angle-2-Custom-2060x1159.png')"; document.getElementById('What').style.display = "none";}, 69);});

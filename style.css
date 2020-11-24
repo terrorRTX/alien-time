@@ -11,7 +11,8 @@
     font-style: normal;
 }
 body {
-background: url("./3090-wallpaper-1920x1080-r1.png")no-repeat center center fixed;
+//background: url("./3090-wallpaper-1920x1080-r1.png")no-repeat center center fixed;
+   background-color:black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

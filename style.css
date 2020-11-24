@@ -67,15 +67,15 @@ left:40%;
 }
 
 @-webkit-keyframes rainbow{
-  0%{color: orange;}	
-  10%{color: purple;}	
-	20%{color: red;}
-  30%{color: CadetBlue;}
-	40%{color: yellow;}
-  50%{color: coral;}
-	60%{color: green;}
-  70%{color: cyan;}
-  80%{color: DeepPink;}
-  90%{color: DodgerBlue;}
-	100%{color: orange;}
+0%{color: hsl(0,0,0);}	
+10%{color: hsl(36,0,0);}	
+20%{color: hsl(72,0,0);}
+30%{color: hsl(108,0,0);}
+40%{color: hsl(144,0,0);}
+50%{color: hsl(180,0,0);}
+60%{color: hsl(216,0,0);}
+70%{color: hsl(252,0,0);}
+80%{color: hsl(288,0,0);}
+90%{color: hsl(312,0,0);}
+100%{color: hsl(0,0,0);}
 }

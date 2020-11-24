@@ -6,7 +6,7 @@ var secs = fullDate.getSeconds();
 var day = fullDate.getDate();
 var month = fullDate.getMonth();
 var year = fullDate.getFullYear();
-var yearCut = year.charAt(3) + year.charAt(4);
+
     
 if (hours < 10){
     hours = "0" + hours;

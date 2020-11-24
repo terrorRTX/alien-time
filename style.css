@@ -25,13 +25,14 @@ border-radius: 5px;
 .badge{
     background-color: rgba(242,150,108, 0.7);
     color: white;
+    text-align: center;
     padding: 5px 10px;
     font-family: sans-serif;
     font-weight: bold;
     width: 256px;
 top: -15px;
 left:40%;
-    position: absolute;
+    position: relative;
 }
 .clock{
     background-color: rgba(235,235,235, 0.5);

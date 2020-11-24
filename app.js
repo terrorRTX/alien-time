@@ -25,7 +25,7 @@ if (month < 10){
 }
 if (msecs<100) {
     if (msecs<10) {
-        msecs = "00" + msecs;
+        msecs = "00";
     } else {
         msecs = "0" + msecs;
     }

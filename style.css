@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Major Mono Display');
 *{
     padding :0;
     margin : 0;
@@ -39,6 +39,6 @@ left:40%;
     font-size:55px;
     height: 100%;
     padding-top: 35px;
-    font-family: Montserrat;
+    font-family: Major Mono Display;
     border-radius: 10px;
 }

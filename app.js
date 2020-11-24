@@ -27,8 +27,8 @@ document.getElementById('hour').innerHTML= hours + ":";
 document.getElementById('minute').innerHTML= mins+":";
 document.getElementById('second').innerHTML= secs+"";
     
-document.getElementById('day1').innerHTML= day+"";
-document.getElementById('month1').innerHTML= month+1+"";
+document.getElementById('day1').innerHTML= day+"-";
+document.getElementById('month1').innerHTML= month+1+"-";
 document.getElementById('year1').innerHTML= year+"";
 
 }

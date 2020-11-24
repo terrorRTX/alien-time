@@ -23,17 +23,11 @@ if (day < 10){
 if (month < 10){
     month = "0" + month;
 }
-if (msecs<100) {
-    if (msecs<10) {
-        msecs = "00";
-    } else {
-        msecs = "0" + msecs;
-    }
-}
+
 document.getElementById('hour').innerHTML= hours + ":";
 document.getElementById('minute').innerHTML= mins+":";
 document.getElementById('second').innerHTML= secs+".";
-document.getElementById('millisecond').innerHTML= msecs.toString()[0]+msecs.toString()[1]+"";
+
     
     
 document.getElementById('day1').innerHTML= day+"-";

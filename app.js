@@ -33,7 +33,7 @@ if (msecs<100) {
 document.getElementById('hour').innerHTML= hours + ":";
 document.getElementById('minute').innerHTML= mins+":";
 document.getElementById('second').innerHTML= secs+".";
-document.getElementById('millisecond').innerHTML= msecs+"";
+document.getElementById('millisecond').innerHTML= msecs.toString()[1]+msecs.toString()[2]+"";
     
     
 document.getElementById('day1').innerHTML= day+"-";

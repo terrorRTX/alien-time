@@ -32,7 +32,7 @@ if (msecs<100) {
 }
 document.getElementById('hour').innerHTML= hours + ":";
 document.getElementById('minute').innerHTML= mins+":";
-document.getElementById('second').innerHTML= secs+"";
+document.getElementById('second').innerHTML= secs+".";
 document.getElementById('millisecond').innerHTML= msecs+"";
     
     

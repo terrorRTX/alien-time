@@ -3,6 +3,9 @@ function clock() {
 var hours = fullDate.getHours();
 var mins = fullDate.getMinutes();
 var secs = fullDate.getSeconds();
+var day = fullDate.getDay();
+var month = fullDate.getMonth();
+var year = fullDate.getYear();
 if (hours < 10){
     hours = "0" + hours;
 }
@@ -15,6 +18,10 @@ if (secs < 10){
 document.getElementById('hour').innerHTML= hours + ":";
 document.getElementById('minute').innerHTML= mins+":";
 document.getElementById('second').innerHTML= secs;
+    
+document.getElementById('day').innerHTML= day + ":";
+document.getElementById('month').innerHTML= month+":";
+document.getElementById('year').innerHTML= year
 
 }
 setInterval(clock,50);

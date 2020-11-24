@@ -50,7 +50,7 @@ left:40%;
     font-family: BigPixel;
     border-radius: 10px;
     
-    -webkit-animation: rainbow 5s infinite;
+    -webkit-animation: flicker 5s infinite;
     
 }
 .clock2{
@@ -67,15 +67,29 @@ left:40%;
 }
 
 @-webkit-keyframes rainbow{
-0%{color: hsla(0,0%,0%,1.0);}	
-10%{color: hsla(36,0%,0%,1.0);}	
-20%{color: hsla(72,0%,0%,1.0);}
-30%{color: hsla(108,0%,0%,1.0);}
-40%{color: hsla(144,0%,0%,1.0);}
-50%{color: hsla(180,0%,0%,1.0);}
-60%{color: hsla(216,0%,0%,1.0);}
-70%{color: hsla(252,0%,0%,1.0);}
-80%{color: hsla(288,0%,0%,1.0);}
-90%{color: hsla(312,0%,0%,1.0);}
-100%{color: hsla(0,0%,0%,1.0);}
+0%{color: hsla(0,100%,0%,1.0);}	
+10%{color: hsla(36,100%,50%,1.0);}	
+20%{color: hsla(72,100%,50%,1.0);}
+30%{color: hsla(108,100%,50%,1.0);}
+40%{color: hsla(144,100%,50%,1.0);}
+50%{color: hsla(180,100%,50%,1.0);}
+60%{color: hsla(216,100%,50%,1.0);}
+70%{color: hsla(252,100%,50%,1.0);}
+80%{color: hsla(288,100%,50%,1.0);}
+90%{color: hsla(312,100%,50%,1.0);}
+100%{color: hsla(0,1000%,50%,1.0);}
+}
+
+@-webkit-keyframes flicker{
+0%{color: hsla(0,100%,0%,0.0);}	
+10%{color: hsla(0,100%,50%,0.2);}	
+20%{color: hsla(0,100%,50%,1.0);}
+30%{color: hsla(0,100%,50%,1.0);}
+40%{color: hsla(0,100%,50%,1.0);}
+50%{color: hsla(0,100%,50%,1.0);}
+60%{color: hsla(0,100%,50%,0.0);}
+70%{color: hsla(0,100%,50%,1.0);}
+80%{color: hsla(0,100%,50%,1.0);}
+90%{color: hsla(0,100%,50%,0.3);}
+100%{color: hsla(0,1000%,50%,1.0);}
 }

@@ -4,6 +4,12 @@
     margin : 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Frozen Crystal AC;
+    src: url("../FrozenCrystalAcademy-J787.otf") format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
 body {
 background: url("./3090-wallpaper-1920x1080-r1.png")no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -40,7 +46,7 @@ left:40%;
     font-size:30px;
     height: 100%;
     padding-top: 35px;
-    font-family: Frozen Crystal Academy Regular;
+    font-family: Frozen Crystal AC;
     border-radius: 10px;
 }
 .clock2{
@@ -49,6 +55,6 @@ left:40%;
     font-size:30px;
     height: 100%;
     padding-top: 35px;
-    font-family: Frozen Crystal Academy Regular;
+    font-family: Frozen Crystal AC;
     border-radius: 10px;
 }

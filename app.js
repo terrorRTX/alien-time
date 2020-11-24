@@ -20,20 +20,16 @@ function clock() {
 	if (day < 10){
 		day = "0" + day;
 	}
-	if (month < 10){
+	if (month+1 < 10){
 		month = "0" + month;
 	}
 
 	document.getElementById('hour1A').innerHTML = hours.toString()[0]; document.getElementById('hour1B').innerHTML = hours.toString()[1];
 	document.getElementById('minute1A').innerHTML = mins.toString()[0] + ":"; document.getElementById('minute1B').innerHTML = mins.toString()[1];
 	document.getElementById('second1A').innerHTML = secs.toString()[0]; document.getElementById('second1B').innerHTML = secs.toString()[1] + ":";
-
-
-	/* document.getElementById('hour').innerHTML= hours + ":";
-	document.getElementById('minute').innerHTML= mins+":";
-	document.getElementById('second').innerHTML= secs+"."; */
-	document.getElementById('day1').innerHTML= day+"-";
-	document.getElementById('month1').innerHTML= month+1+"-";
-	document.getElementById('year1').innerHTML= year+"";
+	
+	document.getElementById('day1A').innerHTML = day.toString()[0] + "-"; document.getElementById('day1B').innerHTML = day.toString()[1];
+	document.getElementById('month1A').innerHTML = (month+1).toString()[0]; document.getElementById('month1B').innerHTML = (month+1).toString()[1];
+	document.getElementById('year1A').innerHTML = year.toString()[0]; document.getElementById('year1B').innerHTML = year.toString()[1] + "-";
 }
 setInterval(clock,50);

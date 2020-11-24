@@ -3,7 +3,7 @@ function clock() {
 var hours = fullDate.getHours();
 var mins = fullDate.getMinutes();
 var secs = fullDate.getSeconds();
-var day = fullDate.getDay();
+var day = fullDate.getDate();
 var month = fullDate.getMonth();
 var year = fullDate.getFullYear();
 if (hours < 10){
@@ -20,7 +20,7 @@ document.getElementById('minute').innerHTML= mins+":";
 document.getElementById('second').innerHTML= secs;
     
 document.getElementById('day1').innerHTML= day;
-document.getElementById('month1').innerHTML= month;
+document.getElementById('month1').innerHTML= month+1;
 document.getElementById('year1').innerHTML= year
 
 }

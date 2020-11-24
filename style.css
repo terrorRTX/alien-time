@@ -10,12 +10,7 @@
     font-weight: bold;
     font-style: normal;
 }
-@font-face {
-    font-family: BigPixel;
-    src: url("../alien-time/BigPixelShadowedDemo-dXog.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
+
 body {
 	background: url("./3090-wallpaper-1920x1080-r1.png")no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -76,7 +71,7 @@ body {
     text-color: rgba(230,225,225,1.0);
     text-align: right;
     font-size:20px;
-    height: 100%;
+    height: 30%;
     padding-bottom: 25px;
     font-family: BigPixel;
     border-radius: 10px;

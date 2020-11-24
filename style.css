@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Major Mono Display');
+@import url('./FrozenCrystalAcademy-J787.otf');
 *{
     padding :0;
     margin : 0;
@@ -40,7 +40,7 @@ left:40%;
     font-size:30px;
     height: 100%;
     padding-top: 35px;
-    font-family: Major Mono Display;
+    font-family: Frozen Crystal Academy;
     border-radius: 10px;
 }
 .clock2{
@@ -49,6 +49,6 @@ left:40%;
     font-size:30px;
     height: 100%;
     padding-top: 35px;
-    font-family: Major Mono Display;
+    font-family: Frozen Crystal Academy;
     border-radius: 10px;
 }

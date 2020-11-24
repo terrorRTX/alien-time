@@ -1,6 +1,7 @@
 ## ALIEN TIME
 
-Testing...
+Testing...<br/>
 
-{{ page.date | date: '%B %d, %Y' }}
-{{ some date variable | date: site.dateFormat }}
+{{ page.date | date: '%B %d, %Y' }} <br/>
+{{ some date variable | date: site.dateFormat }} <br/>
+{{ page.date }}<br/>

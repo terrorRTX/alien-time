@@ -31,5 +31,14 @@ function clock() {
 	document.getElementById('day1A').innerHTML = day.toString()[0] + "-"; document.getElementById('day1B').innerHTML = day.toString()[1];
 	document.getElementById('month1A').innerHTML = (month+1).toString()[0]; document.getElementById('month1B').innerHTML = (month+1).toString()[1];
 	document.getElementById('year1A').innerHTML = year.toString()[0]; document.getElementById('year1B').innerHTML = year.toString()[1] + "-";
+	
+	
+	document.getElementById('hour2').innerHTML = hours.toString() + ":";
+	document.getElementById('minute2').innerHTML = mins.toString() + ":";
+	document.getElementById('second2').innerHTML = secs.toString() + ".";
+	
+	document.getElementById('day2').innerHTML = day.toString() + "-";
+	document.getElementById('month2').innerHTML = month.toString() + "-";
+	document.getElementById('year2').innerHTML = year.toString();
 }
-setInterval(clock,50);
+setInterval(clock, 50);

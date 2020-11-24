@@ -73,15 +73,15 @@ body {
 }
 .desc2{
     background-color: rgba(235,235,235, 0.0);
-    text-color: rgba(230,0,0,1.0);
-    text-align: center;
+    text-color: rgba(230,225,225,1.0);
+    text-align: right;
     font-size:20px;
     height: 100%;
     padding-bottom: 25px;
     font-family: BigPixel;
     border-radius: 10px;
     
-    -webkit-animation: rainbow 5s infinite;
+
 }
 #What {
 	opacity: 0.0420;

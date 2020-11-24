@@ -35,7 +35,7 @@ function clock() {
 	
 	document.getElementById('hour2').innerHTML = hours.toString() + ":";
 	document.getElementById('minute2').innerHTML = mins.toString() + ":";
-	document.getElementById('second2').innerHTML = secs.toString() + ".";
+	document.getElementById('second2').innerHTML = secs.toString() + "";
 	
 	document.getElementById('day2').innerHTML = day.toString() + "-";
 	document.getElementById('month2').innerHTML = month.toString() + "-";

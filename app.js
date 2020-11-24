@@ -38,7 +38,7 @@ document.getElementById('Asecond').innerHTML= secs;
     
 document.getElementById('Aday1').innerHTML= day;
 document.getElementById('Amonth1').innerHTML= month+1;
-document.getElementById('Ayear1').innerHTML= yearCut
+document.getElementById('Ayear1').innerHTML= yearCut;
     
 }
 setInterval(clock,50);

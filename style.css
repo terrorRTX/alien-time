@@ -66,14 +66,16 @@ body {
     
     -webkit-animation: rainbow 5s infinite;
 }
-.desc2{
+#desc2{
     background-color: rgba(235,235,235, 0.0);
     text-color: rgba(230,225,225,1.0);
     text-align: right;
     font-size:20px;
-    height: 30%;
-    padding-bottom: 25px;
+	position: absolute;
+    bottom: 25px;
+	right: 269px;
     font-family: BigPixel;
+	text-shadow: 1px 1px 1px red;
     border-radius: 10px;
     
 
@@ -84,18 +86,18 @@ body {
 	width: 6.9%;
 }
 #What:hover {opacity: 0.420;}
-.description1{
+/*.description1{
     background-color: rgba(235,235,235, 0.0);
     text-color: rgba(230,0,0,1.0);
     text-align: right;
     font-size:20px;
-    height: 100%;
-    padding-bottom: 5px;
+	position: absolute;
+    bottom: 10px;
     font-family: BigPixel;
     border-radius: 10px;
     
    // -webkit-animation: rainbow 5s infinite;
-}
+}*/
 
 @-webkit-keyframes rainbow{
 0%{color: hsla(0,100%,50%,1.0);}	

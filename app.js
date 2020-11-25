@@ -43,4 +43,11 @@ function clock() {
 }
 setInterval(clock, 50);
 
-document.getElementById('What').addEventListener("mouseenter", function() {setTimeout(function() {alert("What're ya lookin' at?"); document.body.style.backgroundImage = "url('Radeon-RX-6900-XT_Angle-2-Custom-2060x1159.png')"; document.getElementById('What').style.display = "none";}, 69);});
+document.getElementById('What').addEventListener("mouseenter", function() {
+	setTimeout(function() {
+		alert("What're ya lookin' at?");
+		document.body.style.backgroundImage = "url('Radeon-RX-6900-XT_Angle-2-Custom-2060x1159.png')";
+		document.getElementById('What').style.display = "none";
+		document.getElementById('desc2').style.right = "24.0px";
+	}, 69);
+});
